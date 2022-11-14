@@ -11,3 +11,12 @@ zi ice wait lucid
 zi load z-shell/H-S-MW
 
 zi pack"binary" for fzf
+
+zi ice wait lucid as"program" atinit"[[ -s \"$HOME/.gvm/scripts/gvm\" ]] && . \"$HOME/.gvm/scripts/gvm\"" \
+  atclone"./binscripts/gvm-installer" pick"$HOME/.gvm/bin/gvm"
+zi light moovweb/gvm
+
+if (( ${+commands[go]} )); then
+  zi ice wait lucid as"program" make pick"ghq"
+  zi light x-motemen/ghq
+fi

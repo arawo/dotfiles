@@ -53,9 +53,12 @@ if [ -f $HOME/.zshlocal ]; then . "$HOME/.zshlocal"; fi
 
 # .zshenvに書くと上書きされてしまうもの
 path=(
- /opt/homebrew/opt/ruby/bin
+ $HOME/bin(N-/)
+ /opt/homebrew/bin(N-/)
  $path
 )
 
 alias ls='ls -FG'
 alias ll='ls -alFG'
+
+eval "$(rbenv init - zsh)"
