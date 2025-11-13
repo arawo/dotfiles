@@ -61,4 +61,3 @@ path=(
 alias ls='ls -FG'
 alias ll='ls -alFG'
 
-eval "$(rbenv init - zsh)"
