@@ -8,4 +8,5 @@ ln -sf $dir/.ziplugin ~/.ziplugin
 touch ~/.zshlocal
 
 ln -sf $dir/.tmux.conf ~/.tmux.conf
+ln -sf $dir/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 

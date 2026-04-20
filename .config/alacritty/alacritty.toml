@@ -1,0 +1,55 @@
+[window]
+padding.x = 6
+padding.y = 4
+opacity = 0.96
+dimensions.columns = 100
+dimensions.lines = 30
+
+[terminal]
+shell = { program = "/bin/zsh", args = ["-c", "/opt/homebrew/bin/tmux attach || /opt/homebrew/bin/tmux"] }
+
+
+[colors.primary]
+background = "#151820"
+foreground = "#c5c8d0"
+
+[colors.cursor]
+cursor = "#c5c8d0"
+
+[colors.selection]
+background = "#272b41"
+
+[colors.normal]
+black   = "#151820"
+red     = "#e17878"
+green   = "#b3bd82"
+yellow  = "#e1a378"
+blue    = "#83a0c5"
+magenta = "#a092c7"
+cyan    = "#89b8c1"
+white   = "#c5c8d0"
+
+[colors.bright]
+black   = "#6a7089"
+red     = "#e98989"
+green   = "#c0c98e"
+yellow  = "#e9b189"
+blue    = "#91abd0"
+magenta = "#aca0d3"
+cyan    = "#95c4ce"
+white   = "#d2d3de"
+
+[font]
+size = 14
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
