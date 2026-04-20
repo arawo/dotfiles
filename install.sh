@@ -6,3 +6,6 @@ ln -sf $dir/.zshrc ~/.zshrc
 ln -sf $dir/.zshfunc ~/.zshfunc
 ln -sf $dir/.ziplugin ~/.ziplugin
 touch ~/.zshlocal
+
+ln -sf $dir/.tmux.conf ~/.tmux.conf
+
